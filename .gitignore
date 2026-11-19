@@ -4,6 +4,17 @@ npm-debug.log*
 
 # 构建输出
 dist/
+dist-node/
+.astro/
+.tsbuildinfo/
+public/assets/
+public/pinyin-match.js
+public/script.js
+public/menav-config.json
+public/search-index.json
+public/menav.svg
+public/favicon.ico
+public/.menav-snapshot-assets.json
 
 # IDE/编辑器配置
 .vscode/
@@ -12,6 +23,7 @@ dist/
 .cursorindexingignore
 .cursor
 .spec-workflow/
+.serena/
 
 # 系统文件
 .DS_Store
@@ -20,6 +32,17 @@ Thumbs.db
 
 # 个人笔记
 docs/
+docs/local/
+docs/*.local.md
+
+# 本地文档与设计上下文
+docs-myself/
+.impeccable.md
+
+# 本地任务记录
+/task_plan.md
+/findings.md
+/progress.md
 
 # 测试相关文件
 dev/
@@ -38,3 +61,9 @@ tests/fixtures/
 # SpecStory explanation file
 .specstory/.what-is-this.md
 AGENTS.md
+/.claude
+/discord-style-navstation
+REVIEW.md
+
+# Playwright MCP 运行产物
+/.playwright-mcp/
